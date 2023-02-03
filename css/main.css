@@ -1,10 +1,31 @@
+html {
+    width: 100%;
+    background-color: skyblue;
+    box-shadow: 20px 20px 200px navy inset;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 body {
-    margin: 60px auto;
-    width: 70%;
+    margin: 30px auto 60px;
+    margin-bottom: 60px;
+    width: 60%;
+    overflow: scroll;
 }
 
 nav {
-    positon: sticky;
+    position: sticky;
+    overflow: hidden;
+    top: 0px;
+    border-bottom: 1px solid #FEFEE2;
+    z-index: 1;
+    background-color: skyblue;
+    box-shadow: 30px 30px 100px navy inset;
+    padding-left: 10px;
+}
+
+#local {
+    color: white;
 }
 
 nav ul, footer ul {
@@ -19,8 +40,29 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: #e7e7de;
 }
+
+a:hover {
+    color: white;
+}
+
+.container {
+    border-bottom: 1px solid #FEFEE2;
+}
+
+.titre {
+    font-style: italic;
+}
+
+.text {
+    text-align: justify;
+}
+
+#sup {
+    text-align: super;
+}
+
 a:hover {
     text-decoration: underline;
 }
@@ -28,14 +70,27 @@ h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
+
+h2 {
+    background-color: skyblue;
+    box-shadow: 0px 20px 50px navy inset;
+    color: azure;
+    padding-left: 10px;
+}
 p {
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
 }
 footer {
-    border-top: 1px solid #d5d5d5;
+    border-top: 1px solid #FEFEE2;
     font-size: .8em;
+    position: fixed;
+    bottom: 0px;
+    width: 60%;
+    background-color: skyblue;
+    box-shadow: 30px 30px 100px navy inset;
+    padding-left: 10px;
 }
 
 ul.posts { 
