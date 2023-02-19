@@ -20,6 +20,7 @@ h1 {
 
 a:link {
 	text-decoration: none;
+	color: seashell;
 }
 
 a:visited {
@@ -98,7 +99,7 @@ nav ul li a:active {
 	width: 30%;
 	background-color: hsl(242, 75%, 17%);
 	box-shadow: 5px 5px 5px black;
-	min-width: 200px;
+	min-width: 300px;
 	margin: 0px 0px 20px;
 }
 
