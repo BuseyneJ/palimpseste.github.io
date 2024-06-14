@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Space+Mono&display=swap');
 
-
 html {
 	font-family: Roboto mono, monospace;
 	background-color: hsl(242, 35%, 17%);
@@ -198,3 +197,131 @@ nav ul li a:active {
 	width: 100%;
 	text-align: center;
 }
+
+.fconteneur h3 {
+	align-self:center;
+	width: 100%;
+	text-align: center;
+}
+
+.b_livre {
+	display: block;
+	box-shadow: 5px 5px 5px black;
+	padding: 5px;
+	width: 300px;
+	margin: 30px;
+	background-color: hsl(242, 75%, 17%);
+	font-size: 0.8rem;
+}
+
+.b_livre img {
+	width: 100px;
+	float: left;
+	margin-right: 5px;
+}
+
+.b_livre p {
+	margin-top: 0px;
+	text-align: justify;
+}
+
+.b_livre p.titreLivre {
+	font-style: italic;
+}
+
+.b_livre p.anneeLivre {
+	margin-bottom: 0px;
+}
+
+.fconteneur a.lienAI {
+	display: block;
+	width: 300px;
+	margin: 30px;
+	background-color: black;
+	box-shadow: 0px 0px 5px seashell;
+}
+
+.fconteneur a.lienAI img{
+	float:left
+}
+
+.fconteneur a.lienAI:hover {
+	box-shadow: 0px 0px 10px seashell;
+	transition: ease-in-out box-shadow 0.5s;
+}
+
+.fconteneur a.lienAI:active {
+	box-shadow: 0px 0px 15px seashell;
+	transition: ease-in-out box-shadow 0.5s;
+}
+
+@media screen and (max-width: 480px) {
+	html {
+		background-color: hsl(244, 27%, 88%);
+		color: black;
+	}
+
+	nav.nav-site {
+		background-color: hsl(240, 17%, 88%);
+	}
+
+	a:link {
+		color: black;
+	}
+
+	a:visited {
+		color: black;
+		text-decoration: none;
+	}
+
+	nav ul li a {
+		color: black;
+	}
+
+	nav ul li a:hover {
+		background-color: hsl(242, 35%, 32%);
+	}
+	
+	nav ul li a:active {
+		box-shadow: inset 2px 2px 2px black, 1px 1px 0px rgba(255, 255, 255, 1);
+	}
+	
+	.fconteneur {
+		background-color: hsl(0, 0%, 63%);
+	}
+		
+	.col-liens {
+		background-color: hsl(242, 12%, 55%);
+	}
+	
+	.b_lien a {
+		background-color: black;
+		box-shadow: 0px 0px 5px seashell;
+	}
+	
+	.b_lien a:hover {
+		box-shadow: 0px 0px 10px seashell;
+	}
+	
+	.b_lien a:active {
+		box-shadow: 0px 0px 15px seashell;
+	}
+	
+	.b_art {
+		background-color: hsl(242, 13%, 59%);
+	}
+	
+	.b_art a {
+		box-shadow: 0px 0px 5px seashell;
+	}
+	
+	.b_art a:hover {
+		box-shadow: 0px 0px 10px seashell;
+	}
+	
+	.b_art a:active {
+		box-shadow: 0px 0px 15px seashell;
+	}
+
+}
+
