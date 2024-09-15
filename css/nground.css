@@ -1,0 +1,111 @@
+body {
+    font-family: Georgia, serif;
+    color: whitesmoke;
+    background-color: darkslategray;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.title-block {
+    height: 119px;
+    line-height: 119px;
+}
+
+.title-block img {
+    float: left;
+    margin-right: 20px;
+}
+
+.title-block h1 {
+    font-family: Garamond;
+    font-size: 50;
+    text-align: left;
+    margin: 0px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+hr {
+    size: 1px;
+    color: brown;
+}
+
+.intro {
+    text-align: center;
+    font-size: 25px;
+    line-height: 1.6;
+}
+
+.project-title {
+    background-color: darkred;
+    box-shadow: 5px 5px 5px black;
+
+    margin-bottom: 0px;
+    padding: 10px;
+}
+
+.project {
+    background-color: darkred;
+    margin: 0 auto 20 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.projectTile {
+    background-color: brown;
+    box-shadow: 5px 5px 5px black;
+    max-width: 560px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.projectTile h4 {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.projectTile p {
+    text-align: justify;
+}
+
+.projectTile iframe {
+    vertical-align: bottom;
+}
+
+.container {
+    margin: 50 auto 20 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.bio {
+    width: 40%;
+    background-color: brown;
+    box-shadow: 5px 5px 5px black;
+
+    
+}
+
+
+.bio img {
+    width: 15%;
+    float: left;
+    margin-right: 10px;
+}
+
+.info {
+    text-align:left;
+}
+
+.info h3 {
+    margin-top: 0px;
+}
+
+li {
+    line-height: 1.6;
+}
