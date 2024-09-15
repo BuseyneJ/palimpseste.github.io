@@ -1,7 +1,16 @@
+html {
+    background-image: url(img/Neo_LA.png);
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
 body {
     font-family: Georgia, serif;
     color: whitesmoke;
-    background-color: darkslategray;
+    background-color: rgba(47, 79, 79, 0.61);
     margin-right: 15%;
     margin-left: 15%;
 }
@@ -72,8 +81,21 @@ hr {
     text-align: justify;
 }
 
-.projectTile iframe {
-    vertical-align: bottom;
+.iframeContainer {
+    position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.iframeContainer iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .container {
@@ -81,19 +103,20 @@ hr {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .bio {
     width: 40%;
     background-color: brown;
     box-shadow: 5px 5px 5px black;
-
-    
+    min-width: 315px;
+    margin-bottom: 20px;
 }
 
 
 .bio img {
-    width: 15%;
+    width: 80px;
     float: left;
     margin-right: 10px;
 }
@@ -106,6 +129,17 @@ hr {
     margin-top: 0px;
 }
 
+.info p {
+    margin-left: 10px;
+}
+
 li {
     line-height: 1.6;
+}
+
+@media only screen and (max-width: 560px) { 
+
+    .title-block h1 {
+        font-size: 35px;
+    }
 }
