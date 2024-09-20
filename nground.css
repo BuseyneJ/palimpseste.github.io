@@ -1,0 +1,172 @@
+html {
+    background-image: url(img/Neo_LA.png);
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+body {
+    font-family: Georgia, serif;
+    color: whitesmoke;
+    background-color: rgba(47, 79, 79, 0.61);
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.title-block {
+    height: 119px;
+    line-height: 119px;
+}
+
+.title-block img {
+    float: left;
+    margin-right: 20px;
+}
+
+.title-block h1 {
+    font-family: Garamond;
+    font-size: 50;
+    text-align: left;
+    margin: 0px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+hr {
+    size: 1px;
+    color: brown;
+}
+
+.intro {
+    text-align: center;
+    font-size: 25px;
+    line-height: 1.6;
+}
+
+.project-title {
+    min-width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.project {
+    margin: 0 auto 20 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+    box-shadow: 5px 5px 5px black;
+}
+
+#dgfa {
+    background-image: url(img/Main\ Cover\ V8.png);
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#dgfaTile {
+    background-color: rgba(173, 164, 153, 0.4);
+    
+}
+
+#eidolon {
+    background-image: url(img/fond-eidolon.jpg);
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#eidolonTile {
+    background-color: rgba(173, 164, 153, 0.25);
+}
+
+.projectTile {
+    box-shadow: 5px 5px 5px black;
+    max-width: 560px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.projectTile h4 {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.projectTile p {
+    text-align: justify;
+}
+
+.iframeContainer {
+    position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.iframeContainer iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    margin: 50 auto 20 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.bio {
+    width: 40%;
+    background-color: rgba(91, 91, 126, 0.5);
+    box-shadow: 5px 5px 5px black;
+    min-width: 315px;
+    margin-bottom: 20px;
+}
+
+
+.bio img {
+    width: 80px;
+    float: left;
+    margin-right: 10px;
+}
+
+.info {
+    text-align:left;
+}
+
+.info h3 {
+    margin-top: 0px;
+}
+
+.info p {
+    margin-left: 10px;
+}
+
+li {
+    line-height: 1.6;
+}
+
+@media only screen and (max-width: 560px) { 
+
+    .title-block h1 {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 451px) {
+    .title-block h1 {
+        font-size: 25px
+    }
+}
