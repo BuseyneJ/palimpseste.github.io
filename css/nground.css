@@ -46,15 +46,12 @@ hr {
 }
 
 .project-title {
-    background-color: darkred;
-    box-shadow: 5px 5px 5px black;
-
-    margin-bottom: 0px;
+    min-width: 100%;
+    margin-bottom: 10px;
     padding: 10px;
 }
 
 .project {
-    background-color: darkred;
     margin: 0 auto 20 auto;
     display: flex;
     flex-direction: row;
@@ -64,8 +61,32 @@ hr {
     box-shadow: 5px 5px 5px black;
 }
 
+#dgfa {
+    background-image: url(img/Main\ Cover\ V8.png);
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#dgfaTile {
+    background-color: rgba(173, 164, 153, 0.4);
+    
+}
+
+#eidolon {
+    background-image: url(img/fond-eidolon.jpg);
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#eidolonTile {
+    background-color: rgba(173, 164, 153, 0.25);
+}
+
 .projectTile {
-    background-color: brown;
     box-shadow: 5px 5px 5px black;
     max-width: 560px;
     padding: 10px;
@@ -108,7 +129,7 @@ hr {
 
 .bio {
     width: 40%;
-    background-color: brown;
+    background-color: rgba(91, 91, 126, 0.5);
     box-shadow: 5px 5px 5px black;
     min-width: 315px;
     margin-bottom: 20px;
@@ -141,5 +162,11 @@ li {
 
     .title-block h1 {
         font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 451px) {
+    .title-block h1 {
+        font-size: 30px
     }
 }
