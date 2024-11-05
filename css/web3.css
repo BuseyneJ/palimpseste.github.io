@@ -39,6 +39,16 @@ a:active {
 	text-align: center;
 }
 
+a.CESIA {
+	background-color: antiquewhite;
+}
+
+a#lienAI img#img-lien {
+	max-width: 100%;
+	height: auto;
+	
+}
+
 nav.nav-site {
 	display: block;
 	position: sticky;
