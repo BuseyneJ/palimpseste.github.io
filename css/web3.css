@@ -39,15 +39,7 @@ a:active {
 	text-align: center;
 }
 
-a.CESIA {
-	background-color: antiquewhite;
-}
 
-a.CESIA img#img-lien {
-	max-width: 100%;
-	height: auto;
-	
-}
 
 nav.nav-site {
 	display: block;
@@ -251,8 +243,18 @@ nav ul li a:active {
 	box-shadow: 0px 0px 5px seashell;
 }
 
+.fconteneur a.lienAI #CESIA {
+	background-color: antiquewhite;
+}
+
 .fconteneur a.lienAI img{
 	float:left
+}
+
+.fconteneur a.lienAI #CESIA img.img-lien {
+	max-width: 100%;
+	height: auto;
+	
 }
 
 .fconteneur a.lienAI:hover {
